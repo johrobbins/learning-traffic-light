@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="upt-Os-eJB">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--IntroView-->
+        <scene sceneID="jpV-vU-ugQ">
+            <objects>
+                <viewController storyboardIdentifier="IntroView" title="IntroView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XvZ-l0-vhv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KV4-eP-ZB3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="traffic_light" translatesAutoresizingMaskIntoConstraints="NO" id="cfw-64-tY2">
+                                <rect key="frame" x="20" y="250" width="140" height="655"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="0ER-zJ-GRa">
+                                <rect key="frame" x="0.0" y="35" width="414" height="190"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">TRAFFIC
+LIGHTS</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="59"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vKQ-DS-UTN">
+                                <rect key="frame" x="180" y="250" width="215" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <string key="text">Traffic lights are used to control the flow of traffic through intersections.  
+Swipe left to learn more about the traffic light sequence and what each colour means.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="gzo-nQ-mK1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fyz-jk-U71" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="137.94642857142856"/>
+        </scene>
+        <!--GreenTrafficLightView-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="GreenTrafficLightView" title="GreenTrafficLightView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="traffic_light_green" translatesAutoresizingMaskIntoConstraints="NO" id="5Sb-d3-GjN">
+                                <rect key="frame" x="20" y="250" width="140" height="655"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Rud-nh-Mfu">
+                                <rect key="frame" x="0.0" y="35" width="414" height="190"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">GREEN
+LIGHT</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="59"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Gqi-tc-gxZ">
+                                <rect key="frame" x="180" y="288.5" width="54.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ikv-4V-8zo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green means you may proceed through the intersection or turn right or left, if it is safe to do so following turning rules." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-uf-RUk">
+                                <rect key="frame" x="177.5" y="343.5" width="214.5" height="185"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="185" id="dtC-zH-ol8"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="30" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64862772036442418" green="0.76632720232009888" blue="0.40422016636544039" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="VLt-uf-RUk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.375" id="IlM-yW-Ofc"/>
+                            <constraint firstAttribute="trailing" secondItem="VLt-uf-RUk" secondAttribute="trailing" constant="22" id="MEn-U3-OaB"/>
+                            <constraint firstItem="VLt-uf-RUk" firstAttribute="top" secondItem="Gqi-tc-gxZ" secondAttribute="bottom" constant="5" id="Yjx-lD-QD1"/>
+                            <constraint firstItem="Gqi-tc-gxZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.7" id="bFJ-wg-aeA"/>
+                            <constraint firstItem="Gqi-tc-gxZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xeA-GO-KdT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857.97101449275374" y="135.9375"/>
+        </scene>
+        <!--YellowTrafficLightView-->
+        <scene sceneID="tO1-OX-M3h">
+            <objects>
+                <viewController storyboardIdentifier="YellowTrafficLightView" title="YellowTrafficLightView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CfG-Pn-hVG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S6z-gV-3ie">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IVI-Vx-YWo">
+                                <rect key="frame" x="0.0" y="35" width="414" height="190"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">YELLOW
+LIGHT</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="59"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="traffic_light_amber" translatesAutoresizingMaskIntoConstraints="NO" id="PSq-aG-g6N">
+                                <rect key="frame" x="20" y="250" width="140" height="655"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slow" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kUt-hR-uXr">
+                                <rect key="frame" x="180" y="288.5" width="95" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="laF-di-p0c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="LR0-Vw-IjR">
+                                <rect key="frame" x="177.5" y="343.5" width="214.5" height="285"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="285" id="brh-kp-OuE"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="30" left="8" bottom="8" right="8"/>
+                                <string key="text">Yellow (amber) means stop if safe to do so. 
+
+If you encounter a flashing yellow light you may proceed with caution giving way to anyone crossing the intersection.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96169978380203247" green="0.72566828360955993" blue="0.32065285572324848" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="kUt-hR-uXr" firstAttribute="centerX" secondItem="S6z-gV-3ie" secondAttribute="centerX" multiplier="1.1" id="1hG-bd-CsT"/>
+                            <constraint firstItem="LR0-Vw-IjR" firstAttribute="centerX" secondItem="S6z-gV-3ie" secondAttribute="centerX" multiplier="1.375" id="4mF-cu-Og9"/>
+                            <constraint firstItem="kUt-hR-uXr" firstAttribute="centerY" secondItem="S6z-gV-3ie" secondAttribute="centerY" multiplier="0.7" id="7Av-YI-Jbt"/>
+                            <constraint firstAttribute="trailing" secondItem="LR0-Vw-IjR" secondAttribute="trailing" constant="22" id="T3I-oq-Z0i"/>
+                            <constraint firstItem="LR0-Vw-IjR" firstAttribute="top" secondItem="kUt-hR-uXr" secondAttribute="bottom" constant="5" id="xAE-RG-p3p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rOS-cM-mBh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hP8-g0-VZf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1668.1159420289857" y="137.27678571428569"/>
+        </scene>
+        <!--Page View Controller-->
+        <scene sceneID="LRj-7f-yUb">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="upt-Os-eJB" customClass="PageViewController" customModule="Traffic_Lights" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4XN-VR-WL9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="-569"/>
+        </scene>
+        <!--RedTrafficLightView-->
+        <scene sceneID="RjR-MG-MhH">
+            <objects>
+                <viewController storyboardIdentifier="RedTrafficLightView" title="RedTrafficLightView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="sT4-RZ-c2M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="F8e-BY-LRL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cBb-Je-QOD">
+                                <rect key="frame" x="0.0" y="35" width="414" height="190"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <string key="text">RED
+LIGHT</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="58"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="traffic_light_red" translatesAutoresizingMaskIntoConstraints="NO" id="3YQ-ng-xZx">
+                                <rect key="frame" x="20" y="250" width="140" height="655"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stop" textAlignment="center" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NFr-mH-9za">
+                                <rect key="frame" x="182" y="288.5" width="91.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ecn-Cp-aCy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="8NZ-qc-443">
+                                <rect key="frame" x="177.5" y="343.5" width="214.5" height="245"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="245" id="ovc-hv-cHa"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="30" left="8" bottom="8" right="8"/>
+                                <string key="text">Red means stop, you must not enter the intersection. If a white line is painted on the road, you must stop your vehicle behind that line and as near as practicable to it.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.42745098039215684" blue="0.30588235294117649" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="8NZ-qc-443" firstAttribute="top" secondItem="NFr-mH-9za" secondAttribute="bottom" constant="5" id="DCI-0r-rnu"/>
+                            <constraint firstItem="8NZ-qc-443" firstAttribute="centerX" secondItem="F8e-BY-LRL" secondAttribute="centerX" multiplier="1.375" id="YjS-Vr-BXC"/>
+                            <constraint firstItem="NFr-mH-9za" firstAttribute="centerX" secondItem="F8e-BY-LRL" secondAttribute="centerX" multiplier="1.1" id="e9Z-rx-106"/>
+                            <constraint firstItem="ht0-sv-3FA" firstAttribute="trailing" secondItem="8NZ-qc-443" secondAttribute="trailing" constant="22" id="h2B-lS-lUq"/>
+                            <constraint firstItem="NFr-mH-9za" firstAttribute="centerY" secondItem="F8e-BY-LRL" secondAttribute="centerY" multiplier="0.7" id="wjt-iH-XCy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ht0-sv-3FA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQl-CJ-amB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2486.9565217391305" y="137.27678571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="traffic_light" width="87" height="423.5"/>
+        <image name="traffic_light_amber" width="87" height="423.5"/>
+        <image name="traffic_light_green" width="87" height="423.5"/>
+        <image name="traffic_light_red" width="87" height="423.5"/>
+    </resources>
+</document>
